@@ -10,7 +10,7 @@ export class MenuPage {
   // A reference to the ion-nav in our component
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = 'ContentPage';
+  rootPage: any = 'CardsPage';
 
   pages: Array<{ title: string, component: any }>;
 

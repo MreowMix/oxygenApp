@@ -1,13 +1,37 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Content
+      AT&amp;T oxyGEN ERG Dashboard
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   <p>
-    This is a perfect starting point for a page with primarily text content. The body is padded nicely and ready for prose.
+    WELCOME TO OUR oxyGEN APPLICATION: ALPHA!
+    <br>:) 
+    <br> Warm Regards,
+    <br> Eddie and Caroleen
+
+    <br>
+    <br>**Planning on putting icons below to access application pages and removing the tabs when on this page**
   </p>
+
+
+  <form ng-submit="savePost(postText)">
+  <label class="item item-input">
+    <i class="icon ion-ios-arrow-forward placeholder-icon"></i>
+    <input type="text" placeholder="Your Post" ng-model="postText">
+    <button type="submit" /> 
+  </label>
+
+  <div class="list card">
+  <div class="item item-divider">11 June,2015 at 2:10 PM</div>
+  <div class="item item-body">
+    <div>
+      Sample Post
+    </div>
+  </div>
+</div>
+
 </ion-content>
